@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: #5B3789;
+    font-size: 3ch;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.buscadorContenedor{
+    padding: 20vh 0;
+    text-align: center;
+}
+
+
+.buscadorContenedor p{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 2ch;
+}
