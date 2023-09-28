@@ -1,0 +1,27 @@
+nav {
+    background: linear-gradient(180deg, #996EC7 0%, rgba(252, 252, 252, 0.00) 100%);
+    padding: 2vh 4vh;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Alinea a la izquierda y a la derecha */
+    height: 30vh;
+    position: fixed;
+    width: 96%;
+    z-index: 5;
+}
+
+nav a {
+    color: #1D004C;
+    outline: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+nav button {
+    border-radius: 45px;
+    background: #FFF;
+    border: none;
+    padding: 2vh;
+    margin: 0 1vh;
+}
+    

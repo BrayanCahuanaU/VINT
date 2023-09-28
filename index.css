@@ -1,7 +1,7 @@
+/* Son estilos generales*/
 body{
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
 }
 
 h1,h2,h3,p{
@@ -15,14 +15,103 @@ h1{
     font-weight: 700;
     word-wrap: break-word;
 }
+h2{
+    color: #5B3789;
+    font-size: 2.3ch;
+}
+p{
+    font-size: 1.7ch;
+    color: rgba(0, 0, 0, 0.60);
+}
 
+
+
+/*Estilos del archivo index.php*/
 .buscadorContenedor{
-    padding: 20vh 0;
+    padding: 30vh 0;
     text-align: center;
 }
 
 
 .buscadorContenedor p{
-    color: rgba(0, 0, 0, 0.60);
-    font-size: 2ch;
+    font-size: 1.9ch;
+}
+
+
+
+/*Estilos generales/comunes de los contenedores*/
+.cursosContenedor, .docentesContenedor{
+    padding: 8vh ;
+}
+
+
+/*Estilos de el contenedor de los cursos mas buscados*/
+
+.cursosMasBuscados{
+    justify-content: center ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh;
+}
+.cursosMasBuscados .curso{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 20px 100px 0px rgba(60, 28, 107, 0.25);
+    text-align: center;
+    border-radius: 40px;
+    padding: 5vh 3vh;
+    width: 25vh;
+    margin: 2vh 5vh;
+}
+.cursosMasBuscados .curso img{
+    width: 10vh;
+}
+
+
+
+
+/*Estilos del contenedor del ranking de los mejores docentes*/
+
+.docentesContenedor .rankingDocentes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.docentesContenedor h3{
+    margin-top: 2vh;
+}
+.docentesContenedor .rankingDocentes p{
+    font-style: italic;
+    margin-bottom: 1vh;
+}
+
+.docentesContenedor .rankingDocentes .docente{
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 20px 100px 0px rgba(60, 28, 107, 0.322);
+    margin:5vh;
+    height: 30ch;
+    width: 30ch;
+}
+
+.docentesContenedor .rankingDocentes .docente img{
+    width: 100%;
+    height: 60%;
+}
+
+
+.docentesContenedor .rankingDocentes .docente .reputacion{
+    display: flex;
+    justify-content: center;
+}
+
+.docentesContenedor .rankingDocentes .docente .reputacion img{
+    width: 15px;
+    height: 15px;
+}
+.docentesContenedor .calificacion, .docentesContenedor .precio {
+    margin: 0 2vh;
 }
